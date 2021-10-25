@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 24 Oct, 2021 10:36:02 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.mypack.Addproduct" table="addpdt">
+        <id name="id" type="int" access="field">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="productname" type="java.lang.String">
+            <column name="PRODUCTNAME" />
+        </property>
+        <property name="manufacturer" type="java.lang.String">
+            <column name="MANUFACTURER" />
+        </property>
+        <property name="selectqty" type="int">
+            <column name="SELECTQTY" />
+        </property>
+        <property name="productdesc" type="java.lang.String">
+            <column name="PRODUCTDESC" />
+        </property>
+        <property name="price" type="int">
+            <column name="PRICE" />
+        </property>
+    </class>
+</hibernate-mapping>
