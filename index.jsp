@@ -13,7 +13,8 @@ body{background-image:url("mall4.jpg");
 background-color:#9F8CBB}
 </style>
 </head>
-<body>
+<body style=text-align:center>
+<h1>TUNE MALL LOGIN</h1>
 <form action="register.jsp" method="post">  
 Name:<input type="text" name="name"/><br><br/>  
 Password:<input type="password" name="password"/><br><br/>  
